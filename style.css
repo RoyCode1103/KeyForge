@@ -1,0 +1,209 @@
+:root {
+    --greencolor: #A7E630;
+    --textcolor: #cecccd;
+    --bgcolor: #5858578f;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: oblique;
+    color: var(--textcolor);
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(269deg, rgba(0, 0, 0, 1) 3%, rgba(46, 46, 46, 1) 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(243, 237, 237);
+}
+
+.heading {
+    color: var(--textcolor);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    opacity: 0.8;
+    font-style: normal;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    line-height: 2.5;
+}
+
+.container {
+    width: 400px;
+}
+
+.display-container {
+    width: 100%;
+    position: relative;
+    background-color: var(--bgcolor);
+    border-radius: 6px;
+    border-bottom: 0.1rem solid var(--textcolor);
+    padding-top: 0.35rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.display {
+    width: 70%;
+    background-color: transparent;
+    padding: 1.15rem 1rem;
+    color: var(--greencolor);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-right: 3.23rem;
+    border: none;
+}
+
+.display::placeholder {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--greencolor);
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.display-container button {
+    position: relative;
+    background: transparent;
+    border: none;
+    bottom: 0.5rem;
+    color: var(--textcolor);
+}
+
+.input-container {
+    margin-top: 10px;
+    background-color: var(--bgcolor);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-length {
+    margin-top: 1.2rem;
+    color: var(--greencolor);
+    font-size: 1.3rem;
+}
+
+.length-container p:nth-child(1) {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strength-container p {
+    color: var(--textcolor);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.strength-container div {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 8px;
+}
+
+#generateButton {
+    color: var(--greencolor);
+    background-color: var(--bgcolor);
+    letter-spacing: 1px;
+    border-radius: 0.4rem;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: hover 1000ms ease-in;
+}
+#generateButton:hover{
+    border:  1px solid var(--greencolor);
+
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    gap: 0 1rem;
+}
+
+.checkbox-container input {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--textcolor);
+    position: relative;
+}
+
+.checkbox-container input:checked {
+    background-color: var(--greencolor)
+}
+
+.checkbox-container input:checked::after {
+    content: "✔";
+    position: absolute;
+    color: black;
+    font-size: 1rem;
+    left: 20%;
+    bottom: 1px;
+}
+
+.checkbox-container label {
+    color: var(--textcolor);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.slider {
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: var(--greencolor);
+    box-shadow: 0px 0px 10px 0px var(--greencolor);
+    transition: all 100ms ease-in;
+    
+}
+
+.slider:hover {
+    outline: 2px solid var(--greencolor)
+}
+
+.slider::-webkit-slider-thumb:hover {
+    outline: 2px solid #a6e630b4;
+    background-color: black;
+   
+}
