@@ -19,15 +19,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 5px solid rgb(243, 237, 237);
+    border: 8px solid rgb(243, 237, 237);
 }
 
 .heading {
     color: var(--textcolor);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: bold;
-    opacity: 0.8;
+    opacity: 1;
     font-style: normal;
     text-align: center;
     list-style: none;
