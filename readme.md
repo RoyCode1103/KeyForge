@@ -1,4 +1,4 @@
-🔐 Password Generator
+🔐 KeyForge
 
 A clean, secure, and customizable password generator built to create strong passwords instantly. This project focuses on usability, security best practices, and a responsive user interface.
 
