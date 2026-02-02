@@ -34,7 +34,7 @@ body {
     list-style: none;
     text-transform: uppercase;
     line-height: 2.5;
-    box-shadow: 0px 5px 15px rgb(16, 16, 108);
+    box-shadow: 0 5px 15px rgb(255, 81, 0);
 }
 
 .container {
@@ -50,7 +50,7 @@ body {
     padding-top: 0.35rem;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0px 5px 15px blue;
+    box-shadow: 0 5px 15px whitesmoke;
 }
 
 .display {
@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0px 5px 15px blue;
+    box-shadow: 0 5px 15px rgb(3, 117, 3);
 }
 
 .length-container {
