@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0 5px 15px rgb(39, 117, 42, 0.8);
+    box-shadow: 0 5px 15px rgb(39, 117, 42, 0.6);
 }
 
 .length-container {
